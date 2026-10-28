@@ -1,0 +1,19 @@
+{
+ "name": "Jito Liquid Staking",
+ "tvl_last": [
+  {
+   "date": 1793188367,
+   "totalLiquidityUSD": 1069783145
+  }
+ ],
+ "tvl_7d_ago": {
+  "date": 1792627200,
+  "totalLiquidityUSD": 1116328279
+ },
+ "tvl_30d_ago": {
+  "date": 1790640000,
+  "totalLiquidityUSD": 1229408282
+ },
+ "description": "JitoSOL is the first liquid staking derivative on Solana to include MEV rewards. Tracks the price of SOL while accruing staking and MEV rewards. Yield is accrued in the price so it will steadily appreciate vs. SOL",
+ "methodology": "Uses the SPL Stake Pool SDK to fetch the total supply of deposited SOL into the Jito Stake Pool"
+}

@@ -1,0 +1,207 @@
+[
+ {
+  "id": "2308",
+  "name": "Jito Liquid Staking",
+  "address": "solana:jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+  "symbol": "JTO",
+  "url": "https://jito.network",
+  "description": "JitoSOL is the first liquid staking derivative on Solana to include MEV rewards. Tracks the price of SOL while accruing staking and MEV rewards. Yield is accrued in the price so it will steadily appreciate vs. SOL",
+  "chain": "Solana",
+  "logo": "https://icons.llamao.fi/icons/protocols/jito-liquid-staking",
+  "audits": "2",
+  "gecko_id": null,
+  "cmcId": null,
+  "category": "Liquid Staking",
+  "chains": [
+   "Solana"
+  ],
+  "module": "jito/index.js",
+  "twitter": "jito",
+  "audit_links": [
+   "https://spl.solana.com/stake-pool#security-audits",
+   "https://2926710696-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Ffrb9MGTK6eZJlEQJyylq%2Fuploads%2F1jfEDpGcd5YlnHusbKYO%2FNeodymeJito.pdf"
+  ],
+  "oraclesBreakdown": [
+   {
+    "name": "Switchboard",
+    "type": "Secondary",
+    "proof": [
+     "https://github.com/DefiLlama/defillama-server/pull/9193"
+    ]
+   }
+  ],
+  "parentProtocol": "parent#jito",
+  "listedAt": 1669265429,
+  "dimensions": {
+   "fees": "jito-staked-sol"
+  },
+  "methodology": "Uses the SPL Stake Pool SDK to fetch the total supply of deposited SOL into the Jito Stake Pool",
+  "misrepresentedTokens": false,
+  "tvlCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/jito/index.js",
+  "slug": "jito-liquid-staking",
+  "tvl": 1069783145.4679916,
+  "chainTvls": {
+   "Solana": 1069783145.4679916
+  },
+  "change_1h": -0.2580196339686722,
+  "change_1d": 2.6221068920985147,
+  "change_7d": -3.3388939751488635,
+  "tokenBreakdowns": {},
+  "mcap": null,
+  "parentProtocolSlug": "jito"
+ },
+ {
+  "id": "5996",
+  "name": "Jito Restaking",
+  "address": "solana:jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+  "symbol": "JTO",
+  "url": "https://jito.network",
+  "description": "Jito Restaking is a multi-asset staking protocol for node consensus networks. The protocol tokenizes staked assets as vault receipt tokens for enhanced liquidity and composability",
+  "chain": "Solana",
+  "logo": "https://icons.llamao.fi/icons/protocols/jito-restaking",
+  "audits": "2",
+  "gecko_id": null,
+  "cmcId": null,
+  "category": "Restaking",
+  "chains": [
+   "Solana"
+  ],
+  "module": "jito-restaking/index.js",
+  "twitter": "jito",
+  "audit_links": [
+   "https://spl.solana.com/stake-pool#security-audits",
+   "https://2926710696-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Ffrb9MGTK6eZJlEQJyylq%2Fuploads%2F1jfEDpGcd5YlnHusbKYO%2FNeodymeJito.pdf"
+  ],
+  "parentProtocol": "parent#jito",
+  "tokensExcludedFromParent": {
+   "Solana": [
+    "JITOSOL"
+   ]
+  },
+  "listedAt": 1743787467,
+  "misrepresentedTokens": false,
+  "tvlCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/jito-restaking/index.js",
+  "slug": "jito-restaking",
+  "tvl": 17574534.82633324,
+  "chainTvls": {
+   "Solana": 17574534.82633324
+  },
+  "change_1h": 0.16295264223653305,
+  "change_1d": 2.7793248771146466,
+  "change_7d": -4.158691433356182,
+  "tokenBreakdowns": {},
+  "mcap": null,
+  "parentProtocolSlug": "jito"
+ },
+ {
+  "id": "1181",
+  "name": "MojitoSwap",
+  "address": "kcc:0x2ca48b4eea5a731c2b54e7c3944dbdb87c0cfb6f",
+  "symbol": "MJT",
+  "url": "https://www.mojitoswap.finance",
+  "description": "Mojito Finance is a decentralized exchange running on KCC, with lots of features that let you earn and win tokens. It is fast, cheap and easily accessible as it is not difficult to use. It has currently opened Trade ,Bar (Farm) and Wine Pools. Other functions are on the way. And it will continue to launch interesting functions such as Cocktail Tickets and NFT in the future.",
+  "chain": "Kucoin",
+  "logo": "https://icons.llamao.fi/icons/protocols/mojitoswap",
+  "audits": "2",
+  "gecko_id": "mojitoswap",
+  "cmcId": "1521",
+  "tags": [
+   "AMM"
+  ],
+  "chains": [
+   "Kucoin"
+  ],
+  "module": "mojitoswap/index.js",
+  "twitter": "MojitoSwap",
+  "forkedFromIds": [
+   "2197"
+  ],
+  "audit_links": [
+   "https://github.com/MojitoFinance/mojito-swap-farm/blob/main/doc/PeckShield-Audit-Report-Mojito-v1.0.pdf"
+  ],
+  "listedAt": 1641194662,
+  "dimensions": {
+   "fees": "mojitoswap",
+   "dexs": "mojitoswap"
+  },
+  "category": "Dexs",
+  "methodology": "We count liquidity and staking on the dexes, pulling data from subgraphs",
+  "misrepresentedTokens": true,
+  "tvlCodePath": "https://github.com/DefiLlama/DefiLlama-Adapters/blob/main/projects/mojitoswap/index.js",
+  "slug": "mojitoswap",
+  "tvl": 274625.92353764887,
+  "chainTvls": {
+   "Kucoin": 274625.92353764887,
+   "Kucoin-staking": 0,
+   "staking": 0
+  },
+  "change_1h": -0.005805966610921587,
+  "change_1d": 1.3181087367185143,
+  "change_7d": -19.582816702059517,
+  "tokenBreakdowns": {},
+  "mcap": 0,
+  "staking": 0
+ },
+ {
+  "id": "6169",
+  "name": "Jito MEV Tips",
+  "address": null,
+  "symbol": "-",
+  "url": "https://www.jito.network/",
+  "description": "Jito's block engine aims to responsibly manage MEV on Solana by minimizing its negative impact on network performance, promoting decentralization through transparency and open tools, and fairly distributing MEV rewards to validators and users",
+  "logo": "https://icons.llamao.fi/icons/protocols/jito-mev-tips",
+  "audits": "0",
+  "gecko_id": null,
+  "cmcId": null,
+  "category": "MEV",
+  "chains": [],
+  "module": "dummy.js",
+  "twitter": "jito",
+  "parentProtocol": "parent#jito",
+  "dimensions": {
+   "fees": "jito-mev-tips"
+  },
+  "misrepresentedTokens": false,
+  "tvlCodePath": null,
+  "slug": "jito-mev-tips",
+  "tvl": null,
+  "chainTvls": {},
+  "change_1h": null,
+  "change_1d": null,
+  "change_7d": null,
+  "tokenBreakdowns": {},
+  "mcap": null,
+  "parentProtocolSlug": "jito"
+ },
+ {
+  "id": "6571",
+  "name": "Jito DAO",
+  "address": "solana:jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+  "symbol": "JTO",
+  "url": "https://jito.network",
+  "description": "Tracks fees and revenue collected by the Jito DAO from MEV and other network sources, excluding liquid staking rewards",
+  "logo": "https://icons.llamao.fi/icons/protocols/jito-dao",
+  "audits": "0",
+  "gecko_id": null,
+  "cmcId": null,
+  "category": "DAO Service Provider",
+  "chains": [],
+  "module": "dummy.js",
+  "twitter": "jito",
+  "parentProtocol": "parent#jito",
+  "dimensions": {
+   "fees": "jito"
+  },
+  "misrepresentedTokens": false,
+  "tvlCodePath": null,
+  "slug": "jito-dao",
+  "tvl": null,
+  "chainTvls": {},
+  "change_1h": null,
+  "change_1d": null,
+  "change_7d": null,
+  "tokenBreakdowns": {},
+  "mcap": null,
+  "parentProtocolSlug": "jito"
+ }
+]
